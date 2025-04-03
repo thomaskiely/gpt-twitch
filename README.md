@@ -7,9 +7,13 @@ A bot that can talk to twitch chat that leverages Chat GPT
 1. Create a .env file in the root directory with the following structure:
 
     OPENAI_API_KEY=
+
     TWITCH_TOKEN=
+
     TWITCH_CLIENT_ID=
+
     TWITCH_USERNAME=
+    
     MIN_MESSAGE_LENGTH=
 
     Set the TWITCH_USERNAME field to your username and the MIN_MESSAGE_LENGTH field to the min characters a message should be for the bot to respond to.
